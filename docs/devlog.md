@@ -18,4 +18,4 @@ created https://github.com/danja/gnamgnam
 
 VSCode recommended Angular Language Service - installed
 
-ng serve --open
+ng serve --open (open launches browser)
