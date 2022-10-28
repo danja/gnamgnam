@@ -1,4 +1,14 @@
-# Gnamgnam
+# GnamGnam
+
+## Easy Link Bookmarking
+
+Starting with a del.icio.us clone
+
+backed by a SPARQL store
+
+...also a toy project to learn Typescript & Angular (and maybe Yjs)
+
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
