@@ -1,3 +1,7 @@
+**2022-10-30**
+
+added some design docs
+
 **2022-10-28**
 
 had a little play with m-ld, port 1883 already in use
