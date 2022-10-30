@@ -6,6 +6,12 @@ A bookmarklet, a simple POST form and a list view like :
 
 ![del.icio.us screenshot](https://github.com/danja/gnamgnam/blob/main/docs/images/delicious.png)
 
+## Architecture
+
+- Typescript/Angular browser code
+- remote SPARQL store
+- internal model compatible with m-ld
+
 ## Storage
 
 1. remote SPARQL store

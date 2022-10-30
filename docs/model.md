@@ -2,6 +2,8 @@
 
 Although supporting multiple users isn't a priority, I think that can be covered by simply using a per-user named graph for the data.
 
+So I can play with it, internal model compatible with m-ld. _No blank nodes._
+
 ```
 @prefix w: <http://hyperdata.it/wiki/> .
 @prefix tag: <http://hyperdata.it/tags/> .
