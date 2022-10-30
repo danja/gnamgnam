@@ -2,6 +2,7 @@
 
 Although supporting multiple users isn't a priority, I think that can be covered by simply using a per-user named graph for the data.
 
+```
 @prefix w: <http://hyperdata.it/wiki/> .
 @prefix tag: <http://hyperdata.it/tags/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -26,12 +27,17 @@ tag:tag3 rdfs:label "tag3".
 <http:\_\_danja> a foaf:Person ;
 foaf:nick "danja" .
 
+```
+
 ---
+
+#### OLD
 
 The bookmark model I came up with for https://github.com/danja/foolicious looked like this :
 
 with note ... change Bookmark -nick-> "danja" to Bookmark -creator-> [Person] -nick-> danja
 
+```
 @prefix w: <http://hyperdata.it/wiki/> .
 @prefix tag: <http://hyperdata.it/tags/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -49,3 +55,4 @@ dc:created "2018-07-24T12:16:57.716Z" .
 tag:tag1 rdfs:label "tag1".
 tag:tag2 rdfs:label "tag2".
 tag:tag3 rdfs:label "tag3".
+```
