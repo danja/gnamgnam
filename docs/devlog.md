@@ -15,8 +15,9 @@ made a new routing aware angular app:
 
 ng new gnamgnam --routing --defaults
 
-ng generate component link-page
-ng generate component list-page
+ng generate component home
+ng generate component newlink
+ng generate component list
 
 created https://github.com/danja/gnamgnam
 

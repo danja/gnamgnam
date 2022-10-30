@@ -14,9 +14,8 @@ So I can play with it, internal model compatible with m-ld. _No blank nodes._
 w:url <http://test> ;
 dc:title "the title";
 dc:description """some description""";
-
 dc:creator <http:\_\_danja> ;
-foaf:nick "danja";
+
 dc:topic tag:tag1 ;
 dc:topic tag:tag2 ;
 dc:topic tag:tag3 ;

@@ -3,14 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LinkPageComponent } from './link-page/link-page.component';
-import { ListPageComponent } from './list-page/list-page.component';
+import { HomeComponent } from './home/home.component';
+import { NewlinkComponent } from './newlink/newlink.component';
+import { ListComponent } from './list/list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LinkPageComponent,
-    ListPageComponent
+    HomeComponent,
+    NewlinkComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
