@@ -1,6 +1,10 @@
 # Requirements
 
-- Data integrity is job one
+Initially just something like a [del.icio.us](https://del.icio.us/danja) clone.
+
+A bookmarklet, a simple POST form and a list view like :
+
+![del.icio.us screenshot](https://github.com/danja/gnamgnam/blob/main/docs/images/delicious.png)
 
 ## Storage
 
@@ -8,16 +12,19 @@
 2. m-ld store
 3. render to static pages
 
+- Data integrity is job one
+
 ## Views
 
 1. add link form
 2. list bookmarks
 3. bookmarklet
-4. mobile
+4. bulk add links
+5. mobile
 
 ## Plugins
 
-1. site crawler
-2.
-
-###
+1. link extractor
+2. site crawler
+3. fs crawler
+4. autotagger/summarizer (spacy)
