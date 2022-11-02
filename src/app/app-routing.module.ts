@@ -5,11 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { NewlinkComponent } from './newlink/newlink.component';
 import { ListComponent } from './list/list.component';
 
-const routes: Routes = [{
-  path: '',
-  component: HomeComponent
-},
-
+const routes: Routes = [{ path: '', component: HomeComponent },
 { path: 'newlink', component: NewlinkComponent },
 { path: 'list', component: ListComponent }
 ];

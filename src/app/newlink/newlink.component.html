@@ -1,1 +1,58 @@
-<p>newlink works!</p>
+<h3>Cart</h3>
+
+<p>
+  <a routerLink="/list">List</a>
+</p>
+
+<form [formGroup]="bookmarkForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="id">
+      ID
+    </label>
+    <input id="id" type="text" formControlName="id" />
+  </div>
+
+  <div>
+    <label for="url">
+      URL
+    </label>
+    <input id="url" type="text" formControlName="url" />
+  </div>
+
+  <div>
+    <label for="title">
+      Title
+    </label>
+    <input id="title" type="text" formControlName="title" />
+  </div>
+
+  <div>
+    <label for="description">
+      Description
+    </label>
+    <input id="description" type="text" formControlName="description" />
+  </div>
+
+  <div>
+    <label for="created">
+      Created
+    </label>
+    <input id="created" type="text" formControlName="created" />
+  </div>
+
+  <div>
+    <label for="creator">
+      Creator
+    </label>
+    <input id="creator" type="text" formControlName="creator" />
+  </div>
+
+  <div>
+    <label for="nick">
+      Nick
+    </label>
+    <input id="nick" type="text" formControlName="creator" />
+  </div>
+
+  <button class="button" type="submit">Submit</button>
+</form>
