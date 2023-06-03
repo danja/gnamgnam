@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private http: HttpClient
+  ) { }
 
   ngOnInit(): void {
   }
